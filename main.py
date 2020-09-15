@@ -43,7 +43,7 @@ if __name__ == '__main__':
         event, values = window.read(timeout=WINDOW_TIMEOUT)
         #print(event, values)
 
-        video_player.update()
+        video_player.update(event, values)
 
         if GRID_PREFIX in str(event):
             
