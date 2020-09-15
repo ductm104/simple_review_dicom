@@ -5,7 +5,7 @@ REPRESENTATION_ROOT = '/media/tuan/DATA/AI-Cardio/dicom_data_20200821_map_bv/rep
 JSON_PATH = "/media/tuan/DATA/AI-Cardio/modules/ReviewLevelData/train_20200820_4011_cases_72730_files.json"
 
 # OUT_JSON_PATH = '/media/tuan/DATA/Duc_Tools/ReviewLevelData/src/checklist.json'
-OUT_JSON_PATH = "/media/tuan/DATA/AI-Cardio/modules/ReviewLevelData/src/checklist.json"
+OUT_JSON_PATH = "/media/tuan/DATA/AI-Cardio/modules/ReviewLevelData/src/checklist_dev.json"
 
 
 WINDOW_CONFIG = {
@@ -29,6 +29,8 @@ SAVE_ALL_PREFIX = 'SAVE_ALL_PREFIX'
 COMMENT_PREFIX = 'COMMENT_PREFIX'
 NOT_REVIEW_PREFIX = 'NOT_REVIEW_PREFIX'
 DROP_DOWN_CHAMBER = 'DROP_DOWN_CHAMBER'
+PLAY_PAUSE_PREFIX = 'PLAY_PAUSE_PREIX'
+
 
 JSON_ORDER_MAPPING = {
     'no_defined': 1,
